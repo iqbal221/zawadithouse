@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Pacifico&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  list-style:none;
+  text-decoration: none;
+}
+
+p{
+  color:#777;
+}
+
+.main .logo{
+  font-weight: bold;
+  cursor: pointer;
+  color:#333;
+  font-size: 23px;
+}
+
+.navbar{
+  padding: 12px 0;
+}
+
+.container a{
+  text-align: center;
+  margin-left:10px;
+}
+
+
+#menu .nav-link{
+  color:#444;
+}
+
+.header{
+  width:100%;
+  height:550px;
+  background:rgb(138, 210, 243);
+  clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0% 75%, 0 0);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+}
+
+
+.header p{
+  font-size:18px;
+}
+
+.header h1{
+  color:#fff;
+  font-weight: bold;
+}
+
+.header-btn a{
+  border-radius: 100px;
+  border: 1px solid #fff;
+  color:#fff;
+  transition:.5s;
+  padding: 7px 12px;
+  margin: 0 5px;
+  text-decoration: none;
+  outline:none;
+}
+
+.header-btn :hover{
+  color:#333;
+  background:#fff;
+}
+
+
+
+
+/*.................. our character ................*/
+
+.container-fluid{
+  padding: 30px 0 10px;
+}
+
+.row{
+  width:90%;
+  margin:100px auto 50px;
+  text-align: center;
+}
+
+.character{
+  text-align:center;
+  padding:45px; 
+  transition:.7s;
+}
+
+.character h3{
+  font-weight: bold;
+}
+
+.character:hover{
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+  cursor:pointer;
+  transform:translateY(-20px);
+}
+
+/*.................. our offer ................*/
+
+
+.container-fluid h2{
+  font-weight: bold;
+}
+
+.col-md-6 .progress-style{
+  padding-right:150px;
+}
+
+.progress-style h6{
+  margin-top:25px;
+  text-align: left;
+}
+
+
+.offers{
+  text-align: left;
+  margin-top:22px;
+  display:flex;
+  align-items:center;  
+  
+}
+
+.offers .fa{
+  cursor:pointer;
+}
+
+h4{
+  font-weight: bold;
+}
+
+.offers .text{
+  padding-left: 25px;
+}
+
+/*.................. project done ................*/
+
+.project-done{
+  margin:60px 0 0;
+  padding:0;
+}
+
+/*.................. pricing ................*/
+
+.pricing{
+  
+  position: relative;
+}
+
+.pricing h2{
+  color:#fff;
+}
+
+.pricing:before{
+  content:'';
+  position:absolute;
+  top:0%;
+  bottom:0%;
+  left:0;
+  right:0;
+  z-index:-1;
+  background:linear-gradient(160deg,#8AD2F3 55%,#fff 0%);
+}
+
+.money{
+  font-size:40px;
+  color:#555
+}
+
+.card{
+  transition:0.5s;
+}
+.card-header h3{
+  font-weight: bold;
+  font-size:22px;
+  padding:15px 10px;
+  
+}
+
+.card-body{
+  padding:30px 10px;
+  list-style: none;
+}
+
+.card-body li{
+  margin: 10px 0;
+  font-size:15px;
+  color:#555;
+}
+
+
+.card-footer{
+  background:#fff;
+  padding:20px 0;
+}
+
+
+.card-footer a{
+  border-radius: 100px;
+  border: 1px solid #42bcf5;
+  color:#42bcf5;
+  transition:.3s;
+  padding: 7px 14px;
+  margin: 0 5px;
+  text-decoration: none;
+  outline:none;
+}
+
+.card-footer a:hover{
+  color:#fff;
+  background:#42bcf5;
+}
+
+.card:hover .card-footer a {
+  color:#fff;
+  background:#42bcf5;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.card:hover .card-header h3, .card:hover .money{
+  color:#42bcf5;
+}
+
+.card:hover{
+  transform: translateY(-20px);
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+/*.................. happy clients ................*/
+
+
+.box{
+  text-align: center;
+  border:1px solid rgba(0,0,0,0.2);
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+  transition: 0.3s ease;
+  border-radius:2px;
+  margin-top:-20px;
+  
+}
+
+.box h5{
+  color:#777;
+  font-size:16px;
+  margin-bottom:20px;
+}
+
+.box p{
+  padding:10px 25px;
+}
+
+.box img{
+  height:100px;
+  width:100px;
+  border-radius: 50%;
+  margin:20px;
+}
+
+.box:hover{
+  background:#42bcf5;
+}
+
+.box:hover p{
+  color:white;
+}
+
+.carousel-indicators{
+  margin-bottom: -10px;
+  
+}
+
+#slider .carousel-control-prev-icon {
+  margin-bottom:200%;
+  width:43px;
+  background-color: rgb(201, 199, 199);
+}
+
+#slider .carousel-control-next-icon{
+  margin-bottom:200%;
+  width:43px;
+  background-color: rgb(189, 186, 186);
+}
+
+/*.................. contact us ................*/
+
+.contact-us{
+ padding:50px 0 0;
+  position:relative;
+  height:650px;
+}
+
+.contact-us:before{
+  content:"";
+  left:0;
+  top:0;
+  bottom:0;
+  right:0;
+  position: absolute;
+  background: linear-gradient(330deg, #42bcf5 55%, #fff 0%);
+  Z-index:-1;
+}
+
+.contact-btn button{
+  border-radius:100px;
+  margin:10px;
+  background: transparent;
+  border:none;
+  color:#42bcf5;
+  transition:.5s;
+}
+
+form:hover .contact-btn button{
+  background:#fff;
+  color:#42bcf5;
+  border: #42bcf5;
+  font-weight: 600;
+} 
+
+.contact-btn button:hover{
+  background:#fff;
+  color:#42bcf5;
+  border: #42bcf5;
+ 
+}
+
+/*.................. footer ................*/
+
+.footer-section{
+  position:relative;
+}
+
+
+.footer-section p{
+  padding:  0 20px;
+  line-height: 22px;
+  cursor:pointer;
+}
+
+.footer-section h4{
+  font-size: 20px;
+  color:#555;
+  margin-bottom:20px;
+}
+
+.footer-navlink li {
+  margin-bottom:5px;
+}
+
+.footer-navlink li a{
+  text-decoration: none;
+  color:#666;
+  text-transform: capitalize;
+  text-align: left;
+  margin-bottom:20px;
+  transition:.5s;
+}
+
+.footer-navlink li a:hover{
+  color:#42bcf5;
+}
+
+#myBtn{
+  display:none;
+  position:fixed;
+  float:right;
+  bottom:30px;
+  right:30px;
+  color:#fff;
+  background:#999;
+  padding:10px;
+  border-radius:10px;
+  z-index:99;
+  cursor:pointer;
+}
+
+/*.................. Responsive ................*/
+
+@media (max-width: 768px) {
+  .our-offer .row{
+    margin:70px auto 40px;
+  }
+
+  .our-offer .prog{
+    margin: 0 0 30px 20px;
+    width:700px;
+    padding-left:50px;
+  }
+
+  .pricing .card{
+    margin-bottom:15px; 
+  }
+
+  .pricing .card:hover{
+    margin-bottom:15px;
+    transform: translateY(-10px);
+  }
+
+  .contact-us p{
+    font-size:15px;
+  }
+
+  .footer-section .col-md-4{
+    margin-bottom:30px;  
+  }
+
+  .footer-section .text-center{
+    font-size:15px;
+    margin-top:-30px;  
+  }
+
+  .happy-customers .box{
+    margin-bottom:30px;
+    transition:.5s;
+    box-shadow:none;
+    cursor:pointer; 
+  }
+
+ 
+
+
+
+
+}
+
+
